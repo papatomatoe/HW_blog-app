@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posts</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <a class="header__logo" href="#">Blog</a>
+      <button class="header__button" aria-label="open menu"></button>
+      <ul class="header__menu">
+        <li class="header__item"><a class="header__link" href="#">about</a></li>
+        <li class="header__item"><a class="header__link">posts</a></li>
+        <li class="header__item"><a class="header__link" href="#">contacts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="content">
+    <h1 class="visually-hidden">Posts page</h1>
+    <section class="posts">
+      <h2 class="posts__heading">Recent posts</h2>
+      <p class="posts__loader">Loading...</p>
+      <!-- <p class="posts__error">Something went wrong...</p> -->
+      <!-- <ul class="posts__list">
+        <li class="posts__item">
+          <h3 class="posts__title">Title</h3>
+          <p class="posts__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam porro quibusdam
+            repellendus commodi recusandae vitae officia. Iste ad deserunt cum ducimus quibusdam eveniet natus deleniti
+            exercitationem dignissimos reprehenderit? Voluptates, eum!</p>
+          <time class="posts__date" datetime="12.01.21">12.01.21</time>
+        </li>
+      </ul> -->
+    </section>
+    <section class="add-post">
+      <h2 class="add-post__title">Add Post</h2>
+      <form class="add-post__form">
+        <label class="add-post__field">
+          <span class="add-post__label">Post Title: </span>
+          <input class="add-post__input" type="text" name="postTitle" placeholder="add title..." />
+        </label>
+        <label class="add-post__field">
+          <span class="add-post__label">Content: </span>
+          <textarea class="add-post__content" name="postContent" placeholder="add post content..."></textarea>
+        </label>
+        <button class="add-post__button" type="submit" disabled>Add ost</button>
+      </form>
+      <!-- <div class="add-post__error">
+        <p>Something went wrong...</p>
+        <p>Please, try again later.</p>
+      </div> -->
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__copy">&copy; Blog 2022</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
