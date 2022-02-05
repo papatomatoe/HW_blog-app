@@ -20,7 +20,7 @@ _Посты отображаются в порядке от самого нов�
 
 ### API
 
-URL: https://api.github.com/users
+URL: https://web-app-papatomatoe.herokuapp.com/
 
 [Документация](https://github.com/papatomatoe/api-web-blog-doc)
 
